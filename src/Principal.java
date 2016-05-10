@@ -8,9 +8,15 @@ public class Principal {
 		
 		
 		
-		 calculadora.somar(10,50);
-		 calculadora.somar(20,10);
+//		 calculadora.somar(10,50);
+//		 calculadora.somar(20,10);
+		int primeiroValor= Integer.parseInt(
+		JOptionPane.showInputDialog("digite um valor"));
+		int segundoValor= Integer.parseInt(
+				JOptionPane.showInputDialog("digite um valor"));
 		
+		//calculadora.multiplicar(10, 5));
+		calculadora.multiplicar(primeiroValor, segundoValor);
 		JOptionPane.showMessageDialog(null ,calculadora.getValor());
 		calculadora.dividir();
 		calculadora.subtrair();

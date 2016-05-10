@@ -15,7 +15,8 @@ public class Calculadora {
 	public void dividir (){
 
 	}
-	public void multiplicar (){
+	public void multiplicar (int valorUm,int valorDois){
+		this.valor=this.valor + (valorUm*valorDois);
 		
 
 	
